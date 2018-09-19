@@ -1,0 +1,67 @@
+
+body {
+    font-family: 'M PLUS 1p', sans-serif;
+    background-color:#dddddd;
+  
+  }
+  
+  
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+  }
+  
+  
+  .title {
+    font-size:30px;
+  }
+  
+  svg {
+    background-color:white;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+      border:1px #999999 solid;
+  }
+  .bar:hover {
+    fill: #ffffff;
+  }
+  
+  .x-axis line {
+    stroke-width: 1;
+    stroke:#282828;
+  }
+  .x-axis path {
+    stroke-width: 1;
+    stroke:#282828;
+  }
+  .x-axis text {
+    font-size:14px;
+  }
+  .y-axis line {
+    stroke-width: 1;
+    stroke:#282828;
+  }
+  .y-axis path {
+    stroke-width: 1;
+    stroke:#282828;
+  }
+  .y-axis text {
+    font-size:14px;
+  }
+  
+  div.tooltip {	
+    position: absolute;			
+    text-align: center;			
+    width: auto;					
+    height: auto;					
+    padding: 2px;
+    padding-left:15px;
+    background: #ffffff;	
+    border: 0px;		
+    border-top-right-radius: 8px;			
+    border-bottom-right-radius: 8px;		
+    pointer-events: none;			
+  }
